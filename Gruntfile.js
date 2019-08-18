@@ -3,6 +3,7 @@
 module.exports = function (grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
+	var serveStatic = require('serve-static');
 
     grunt.initConfig({
         clean:{
@@ -76,13 +77,13 @@ module.exports = function (grunt) {
                     base:['app']
                   , middleware:function(connect){
                         return [
-                            connect.static('.tmp')
-                          , connect.static('app')
-                          , connect.static('media')
+                            serveStatic('.tmp')
+                          , serveStatic('app')
+                          , serveStatic('media')
                           , connect().use('/vendor',
-                                connect.static('bower_components'))
+                                serveStatic('bower_components'))
                           , connect().use('/data',
-                                connect.static('data'))
+                                serveStatic('data'))
                         ];
                     }
                 }

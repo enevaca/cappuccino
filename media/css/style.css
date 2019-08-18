@@ -78,7 +78,6 @@ footer ul li a {
 footer ul li a:hover {}
 
 #wrapper {
-    width: 960px;
     margin: 0px auto;
     margin-top: 28px;
 }
@@ -91,6 +90,7 @@ footer ul li a:hover {}
     box-shadow: 0px 3px 10px #748038;
     margin-bottom: 20px;
     margin-right: 10px;
+    position: inherit; 
 }
 
 #options ul {
@@ -159,7 +159,7 @@ footer ul li a:hover {}
 }
 
 #schedule {
-    /*float: left;*/
+    float: left;
     width: 660px;
 }
 
