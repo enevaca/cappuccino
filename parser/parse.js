@@ -2,7 +2,7 @@
 
 var pdf2json=require('./pdf2json').parsePDF
   , join=require('path').join
-  , gestion='2015-01'
+  , gestion='2019-02'
   , path=join(__dirname,'..','data','FCyT',gestion)
   , file=require('file')
   , fs=require('fs')

@@ -1,6 +1,6 @@
 var Config=new(function(){
     this.url='/data/FCyT/'
-    this.gestion='2015-01'
+    this.gestion='2019-02'
     this.url_gestion=this.url+this.gestion
     this.carreras=[]
 })()
@@ -10,45 +10,37 @@ var Templates=new(function(){
         +'</th><th class="day">Lunes</th><th class="day">Martes</th>'
         +'<th class="day">Miercoles</th><th class="day">Jueves</th>'
         +'<th class="day">Viernes</th><th class="day">Sabado</th></tr>'
-        +'<tr><th>06:45</th><td></td><td></td>'
+        +'<tr><th>07:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>07:30</th><td></td><td></td>'
-        +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>08:15</th><td></td><td></td>'
+        +'<tr><th>08:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
         +'<tr><th>09:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>09:45</th><td></td><td></td>'
+        +'<tr><th>10:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>10:30</th><td></td><td></td>'
-        +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>11:15</th><td></td><td></td>'
+        +'<tr><th>11:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
         +'<tr><th>12:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>12:45</th><td></td><td></td>'
+        +'<tr><th>13:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>13:30</th><td></td><td></td>'
-        +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>14:15</th><td></td><td></td>'
+        +'<tr><th>14:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
         +'<tr><th>15:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>15:45</th><td></td><td></td>'
+        +'<tr><th>16:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>16:30</th><td></td><td></td>'
-        +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>17:15</th><td></td><td></td>'
+        +'<tr><th>17:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
         +'<tr><th>18:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>18:45</th><td></td><td></td>'
+        +'<tr><th>19:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>19:30</th><td></td><td></td>'
-        +'<td></td><td></td><td></td><td></td></tr>'
-        +'<tr><th>20:15</th><td></td><td></td>'
+        +'<tr><th>20:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr>'
         +'<tr><th>21:00</th><td></td><td></td>'
+        +'<td></td><td></td><td></td><td></td></tr>'
+        +'<tr><th>22:00</th><td></td><td></td>'
         +'<td></td><td></td><td></td><td></td></tr></tbody></table>';
     this.carrera='<li name="carrera-{0}"><a class="carrera">{2}</a></li>'
     this.nivel='<li name="nivel-{0}-{1}"><a class="nivel">Nivel {2}</a></li>'
@@ -174,7 +166,7 @@ var Tablero=new(function(){
     }
     this.renderHorario=function(dia,hora,duracion,texto,color){
         var dias={'LU':2,'MA':3,'MI':4,'JU':5,'VI':6,'SA':7}
-        var periodos={'645':2,'730':3,'815':4,'900':5,'945':6,'1030':7,'1115':8,'1200':9,'1245':10,'1330':11,'1415':12,'1500':13,'1545':14,'1630':15,'1715':16,'1800':17,'1845':18,'1930':19,'2015':20,'2100':21}
+        var periodos={'700':2,'800':3,'900':4,'1000':5,'1100':6,'1200':7,'1300':8,'1400':9,'1500':10,'1600':11,'1700':12,'1800':13,'1900':14,'2000':15,'2100':16,'2200':17}
         for(var i=0;i<duracion;i++){
             var celda=$('tr:nth-child('+(periodos[hora]+i)+') :nth-child('+dias[dia]+')')
             if(celda.text()!==''){

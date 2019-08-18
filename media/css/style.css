@@ -18,7 +18,7 @@ Youre All That I See    F9F9B9
 
 * {
     font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 html, body, div, header, section, footer, nav {
@@ -84,7 +84,7 @@ footer ul li a:hover {}
 
 #options {
     float: left;
-    width: 300px;
+    width: 350px;
     background-color: #DBE479;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 0px 3px 10px #748038;
@@ -99,7 +99,7 @@ footer ul li a:hover {}
 }
 
 #options>ul {
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 20px 15px;
 }
 
 #options ul li {}
@@ -180,6 +180,7 @@ footer ul li a:hover {}
 #schedule table tr td {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
     font-size: 13px;
+    text-align: center;
 }
 
 #schedule table tr th:nth-child(1),
@@ -196,7 +197,10 @@ footer ul li a:hover {}
 }
 
 .period { width: 40px; }
-.day { width: 100px;}
+.day { 
+    width: 100px; 
+    text-align: center !important;
+}
 
 @media only screen and (max-width: 450px) {
     #header ul li {
