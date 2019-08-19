@@ -179,13 +179,14 @@ footer ul li a:hover {}
 #schedule table tr th,
 #schedule table tr td {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     text-align: center;
+    width: 170px;
 }
 
-#schedule table tr th:nth-child(1),
-#schedule table tr th:nth-child(2) {
-    text-align: left;
+#schedule table tr th:nth-child(1) {
+    text-align: center;
+    width: 130px;
 }
 
 #schedule table tr th {
@@ -193,7 +194,7 @@ footer ul li a:hover {}
 }
 
 #schedule table tr td {
-    border: 1px solid #262C0A;
+    border: 1px solid #c9c7b1;
 }
 
 .period { width: 40px; }
@@ -213,15 +214,15 @@ a.grupo.selected {
     text-decoration: underline;
 }
 
-.color1 { background-color: hsla(  0, 100%, 50%, 0.25); }
-.color2 { background-color: hsla( 40, 100%, 50%, 0.25); }
-.color3 { background-color: hsla( 80, 100%, 50%, 0.25); }
-.color4 { background-color: hsla(120, 100%, 50%, 0.25); }
-.color5 { background-color: hsla(160, 100%, 50%, 0.25); }
-.color6 { background-color: hsla(200, 100%, 50%, 0.25); }
-.color7 { background-color: hsla(240, 100%, 50%, 0.25); }
-.color8 { background-color: hsla(280, 100%, 50%, 0.25); }
-.color9 { background-color: hsla(320, 100%, 50%, 0.25); }
+.color1 { background-color: hsla(  0, 100%, 50%, 0.45); }
+.color2 { background-color: hsla( 40, 100%, 50%, 0.45); }
+.color3 { background-color: hsla( 80, 100%, 50%, 0.45); }
+.color4 { background-color: hsla(120, 100%, 50%, 0.45); }
+.color5 { background-color: hsla(160, 100%, 50%, 0.45); }
+.color6 { background-color: hsla(200, 100%, 50%, 0.45); }
+.color7 { background-color: hsla(240, 100%, 50%, 0.45); }
+.color8 { background-color: hsla(280, 100%, 50%, 0.45); }
+.color9 { background-color: hsla(320, 100%, 50%, 0.45); }
 
 #schedule table tr td.collision {
     background-color: #ffffff;
