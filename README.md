@@ -10,7 +10,7 @@ Format JSON en Sublime Text: https://blog.adriaan.io/sublime-pretty-json.html
 
 Forked from SCESI Cappuccino (https://github.com/ccaballero/cappuccino-old)
 
-Editado por Windsor Aklvarexz
+Editado por Windsor Alvarez Davila
 
 
 
