@@ -1,187 +1,183 @@
 {
   "code": "399501",
-  "name": "LICENCIATURA EN BIOLOGIA",
+  "name": "INGENIERÍA DE SISTEMAS",
   "levels": [
     {
       "code": "1",
       "subjects": [
         {
           "code": "1803013",
-          "name": "PRUEBA",
+          "name": "MAT101",
           "groups": [
             {
-              "code": "1",
+              "code": "22",
               "schedule": [
+                {
+                  "day": "LU",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "C101",
+                  "teacher": "W. JALDIN"
+                },
                 {
                   "day": "MI",
                   "start": "700",
                   "end": "900",
                   "duration": 2,
-                  "room": "690A",
-                  "teacher": "CESPEDES GUIZADA MARIA BENITA"
+                  "room": "C101",
+                  "teacher": "W. JALDIN"
                 }
               ],
-              "teacher": "CESPEDES GUIZADA MARIA BENITA"
+              "teacher": "W. JALDIN"
+            },
+            {
+              "code": "24",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "C301",
+                  "teacher": "F. RODRIGUEZ"
+                },
+                {
+                  "day": "JU",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "C301",
+                  "teacher": "F. RODRIGUEZ"
+                }
+              ],
+              "teacher": "F. RODRIGUEZ"
             }
           ]
         },
         {
           "code": "2002004",
-          "name": "BIOLOGIA GENERAL",
+          "name": "FIS100",
           "groups": [
             {
-              "code": "1",
+              "code": "18",
               "schedule": [
                 {
                   "day": "LU",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 3,
-                  "room": "608A",
-                  "teacher": "ANTEZANA VALERA DE D. AMALIA"
-                },
-                {
-                  "day": "MA",
-                  "start": "800",
-                  "end": "900",
+                  "start": "900",
+                  "end": "1100",
                   "duration": 2,
-                  "room": "690A",
-                  "teacher": "ANTEZANA VALERA DE D. AMALIA"
+                  "room": "E301",
+                  "teacher": "R. GUTIERREZ"
                 },
                 {
-                  "day": "JU",
-                  "start": "800",
-                  "end": "1000",
-                  "duration": 3,
-                  "room": "608A",
-                  "teacher": "ANTEZANA VALERA DE D. AMALIA"
-                },
-                {
-                  "day": "VI",
-                  "start": "800",
-                  "end": "1000",
-                  "duration": 3,
-                  "room": "690A",
-                  "teacher": "ANTEZANA VALERA DE D. AMALIA"
+                  "day": "MI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "E301",
+                  "teacher": "R. GUTIERREZ"
                 }
               ],
-              "teacher": "ANTEZANA VALERA DE D. AMALIA"
+              "teacher": "R. GUTIERREZ"
             }
           ]
         },
         {
           "code": "2004163",
-          "name": "QUIMICA GENERAL",
+          "name": "MAT100",
           "groups": [
             {
-              "code": "1",
+              "code": "23",
               "schedule": [
                 {
-                  "day": "LU",
-                  "start": "945",
-                  "end": "1115",
-                  "duration": 2,
-                  "room": "617C",
-                  "teacher": "ROJAS CESPEDES JENNY"
-                },
-                {
                   "day": "MA",
-                  "start": "1245",
-                  "end": "1500",
-                  "duration": 3,
-                  "room": "613",
-                  "teacher": "ALFARO DENUS GONZALO"
-                },
-                {
-                  "day": "MA",
-                  "start": "1715",
-                  "end": "1845",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "612",
-                  "teacher": "ROJAS CESPEDES JENNY"
+                  "room": "E103",
+                  "teacher": "T. TORRES"
                 },
                 {
                   "day": "JU",
-                  "start": "1115",
-                  "end": "1245",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "652",
-                  "teacher": "ROJAS CESPEDES JENNY"
+                  "room": "C002",
+                  "teacher": "T. TORRES"
                 }
               ],
-              "teacher": "ROJAS CESPEDES JENNY"
+              "teacher": "T. TORRES"
             }
           ]
         },
         {
           "code": "2006063",
-          "name": "FISICA GENERAL",
+          "name": "SIS100",
           "groups": [
+            {
+              "code": "L1",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "F302",
+                  "teacher": "N. COCA"
+                },
+                {
+                  "day": "JU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "F302",
+                  "teacher": "N. COCA"
+                }
+              ],
+              "teacher": "N. COCA"
+            },
             {
               "code": "1",
               "schedule": [
                 {
-                  "day": "MA",
-                  "start": "1545",
-                  "end": "1715",
-                  "duration": 2,
-                  "room": "684B",
-                  "teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
-                },
-                {
                   "day": "MI",
-                  "start": "1545",
-                  "end": "1715",
+                  "start": "1400",
+                  "end": "1600",
                   "duration": 2,
-                  "room": "684B",
-                  "teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
-                },
-                {
-                  "day": "VI",
-                  "start": "1245",
-                  "end": "1545",
-                  "duration": 4,
-                  "room": "618",
-                  "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR"
+                  "room": "F302",
+                  "teacher": "N. COCA"
                 }
               ],
-              "teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
+              "teacher": "N. COCA"
             }
           ]
         },
         {
           "code": "2008159",
-          "name": "ALGEBRA",
+          "name": "SHC100",
           "groups": [
             {
-              "code": "1",
+              "code": "3",
               "schedule": [
                 {
-                  "day": "LU",
-                  "start": "1115",
-                  "end": "1245",
-                  "duration": 2,
-                  "room": "652",
-                  "teacher": "LEON ROMERO RUPERTO"
-                },
-                {
                   "day": "MA",
-                  "start": "645",
-                  "end": "815",
+                  "start": "1600",
+                  "end": "1800",
                   "duration": 2,
-                  "room": "690A",
-                  "teacher": "LEON ROMERO RUPERTO"
+                  "room": "C103",
+                  "teacher": "A. CALVIMONTES"
                 },
                 {
-                  "day": "VI",
-                  "start": "645",
-                  "end": "815",
+                  "day": "JU",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
-                  "room": "690A",
-                  "teacher": "LEON ROMERO RUPERTO"
+                  "room": "C205",
+                  "teacher": "A. CALVIMONTES"
                 }
               ],
-              "teacher": "LEON ROMERO RUPERTO"
+              "teacher": "A. CALVIMONTES"
             }
           ]
         }
