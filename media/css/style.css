@@ -8,23 +8,69 @@ Youre All That I See    F9F9B9
 
 @font-face {
     font-family: 'GeoSansLight';
-    src: url('/fonts/GeosansLight.ttf');
+    src: url('../fonts/GeosansLight.ttf');
 }
 
 @font-face {
     font-family: 'GeoSansLightOblique';
-    src: url('/fonts/GeosansLight-Oblique.ttf');
+    src: url('../fonts/GeosansLight-Oblique.ttf');
 }
 
 * {
     font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
-    font-size: 16px;
+    font-size: 14px;
+    /* font-size: 14vw; botones */
 }
 
 html, body, div, header, section, footer, nav {
     margin: 0px;
     padding: 0px;
 }
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #f9f9b9;
+  margin: 6px;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px,5px) ;
+  transform: rotate(-45deg) translate(-5px,5px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: .0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px,-6px) ;
+  transform: rotate(45deg) translate(-6px,-6px);
+}
+
+/*add georg*/
+body {
+    overflow: scroll;
+}
+
+li{
+    margin: 8px 0;
+    text-indent: -0.25em;
+}
+br {
+	        line-height: 135%;
+		     }
+
 
 .clear {
     clear: both;
@@ -42,7 +88,8 @@ header {
 header h1 {
     font-family: 'GeoSansLightOblique';
     font-size: 15px;
-    color: #F9F9B9;
+    /* font-size: 15vw; tittle*/
+    color: #F9F9B9;  
     margin: 0px;
     padding: 5px;
     text-align: center;
@@ -52,8 +99,15 @@ footer {
     position: fixed;
     bottom: 5px;
     right: 0px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
+
+/* .mobile {
+  position: none;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
 
 footer ul {
     margin: 0px;
@@ -61,36 +115,57 @@ footer ul {
     list-style: none;
 }
 
-footer ul li {
-    float: left;
-}
+/* footer ul li { */
+    /* float: left; */
+/* } */
 
 footer ul li a {
-    font-family: 'GeoSansLightOblique';
-    font-size: 12px;
+    font-family: 'GeoSansLight';
+    font-size: 13px;
+    /* font-size: 2vw; footer */
     float: left;
     padding: 3px;
     margin: 0px 5px;
     text-decoration: none;
-    color: #262C0A;
+    color: rgb(14, 17, 4);
 }
 
-footer ul li a:hover {}
+/* footer ul li a:hover {} */
 
 #wrapper {
+	/*isma salva el dia*/
+        /*width: 960px;*/
+    /* width: 996px; */
+    width: 100vw;
     margin: 0px auto;
     margin-top: 28px;
 }
 
 #options {
     float: left;
-    width: 350px;
+    /* width: 290px; */
+    width: 250px;
+    /* width: 76%; */
     background-color: #DBE479;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 25px 25px;
     box-shadow: 0px 3px 10px #748038;
     margin-bottom: 20px;
     margin-right: 10px;
+    
+    /* add: georg*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+    /* sidebar */
     position: inherit; 
+    /* position: fixed;  */
+    z-index: 1; 
+    display: block; 
+    margin-bottom: 0px; 
+    bottom: 0px; 
+    top: 28px;
+    overflow-x: hidden;
 }
 
 #options ul {
@@ -99,15 +174,15 @@ footer ul li a:hover {}
 }
 
 #options>ul {
-    padding: 0px 0px 20px 15px;
+    padding: 0px 0px 10px 10px;
 }
 
-#options ul li {}
+/* #options ul li {} */
 
 #options ul li span,
 #options ul li a {
-    font-family: "Franklin Gothic Medium","Arial Narrow Bold","Arial",sans-serif;
-    font-size: 11px;
+    font-family: "Franklin Gothic","Arial Narrow Bold","Arial",sans-serif;
+    font-size: 12px;
     cursor: pointer;
     padding: 0px 4px;
 }
@@ -115,18 +190,20 @@ footer ul li a:hover {}
 #options ul li a:hover {
     color: #DBE479;
     background-color: #748038;
+
 }
 .tools {
-    right: -6em;
+    right: -5.3em;
     top: 7.0em;
     position: fixed;
     transform: rotate(-90deg);
     float: left;
     padding: 0.5em 1.25em;
+    /* display: none */
 }
 
 .tools.preview ul li{
-    transform: translate(0,0.8em);
+    /* transform: translate(0,0.8em); */
     transition: 1s ease-in-out 0.08s;
 }
 
@@ -159,48 +236,83 @@ footer ul li a:hover {}
 }
 
 #schedule {
-    float: left;
-    width: 660px;
+    /*isma salva el dia*/
+    /*float: left;*/
+    float: none;
+    /* width: 640px; */
+    white-space: pre-wrap;
 }
 
 #schedule.preview {
-    width: 100%;
+    align-content: center;
 }
 
 #schedule table {
     margin-left: 10px;
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    /* margin-right: 32px; */
+    margin-right: 1.25em;
+    /*width: 81.25%;*/  /* add in javascript */ 
+    /* max-width: 81.25%; */
+    border-collapse: collapse;  
+    margin-top: 10px;
+    margin-bottom: 2.5em;
 }
 
-#schedule table tr {}
+table {
+    overflow-x: scroll;
+}
+/* @media screen and (max-width: 320px) {
+     table {
+       display: block;
+       overflow-x: auto;
+     }
+} */
+
+#schedule table tr {
+    text-align: center;
+}
+
 
 #schedule table tr th,
-#schedule table tr td {
+#schedule table tr td,
+#schedule table tr td div {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
-    font-size: 11px;
-    text-align: center;
-    width: 170px;
+    font-size: 12px;
+    /* font-size: 10px; */
+    padding: 2px;
 }
 
-#schedule table tr th:nth-child(1) {
-    text-align: center;
-    width: 130px;
+#schedule table tr td div.info {
+    font-size: 10px;
 }
 
-#schedule table tr th {
+/* #schedule table tr td.shrink {
+    white-space:nowrap
+} */
+
+
+/* #schedule table tr th:nth-child(1),
+#schedule table tr th:nth-child(2) {
+    text-align: center;
+} */
+
+#schedule table tr th.hour {
     color: #262C0A;
+    font-weight: normal;
+    vertical-align: top;
+    text-align:right;
+    border-top: 1px solid #c9c7b1;
 }
 
 #schedule table tr td {
+    /* border: 1px solid #262C0A; */
+    /* border: 1px solid #262c0a4e ; */
     border: 1px solid #c9c7b1;
 }
 
-.period { width: 40px; }
+.period { width: 42px; }
 .day { 
-    width: 100px; 
-    text-align: center !important;
+    width: 100px;
 }
 
 @media only screen and (max-width: 450px) {
@@ -214,6 +326,7 @@ a.grupo.selected {
     text-decoration: underline;
 }
 
+
 .color1 { background-color: hsla(  0, 100%, 50%, 0.45); }
 .color2 { background-color: hsla( 40, 100%, 50%, 0.45); }
 .color3 { background-color: hsla( 80, 100%, 50%, 0.45); }
@@ -224,8 +337,13 @@ a.grupo.selected {
 .color8 { background-color: hsla(280, 100%, 50%, 0.45); }
 .color9 { background-color: hsla(320, 100%, 50%, 0.45); }
 
-#schedule table tr td.collision {
-    background-color: #ffffff;
-    border: 2px solid #ff0000;;
-}
+.color10 { background-color: hsla(20, 100%, 50%, 0.7); }
+.color11 { background-color: hsla(60, 100%, 50%, 0.7); }
+.color12 { background-color: hsla(100, 100%, 50%, 0.7); }
 
+#schedule table tr td.collision {
+    /* background-color: #ffffff; */
+    /* border: 2px solid #ff0000; */
+    color: red;
+    /* font-weight:bold; */
+}
