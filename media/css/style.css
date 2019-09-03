@@ -299,9 +299,11 @@ table {
 #schedule table tr th.hour {
     color: #262C0A;
     font-weight: normal;
-    vertical-align: top;
-    text-align:right;
+    vertical-align: middle;
+    text-align: center;
     border-top: 1px solid #c9c7b1;
+    border-bottom: 1px solid #c9c7b1;
+    width: 65px;
 }
 
 #schedule table tr td {

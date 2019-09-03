@@ -12,7 +12,6 @@ var Templates = new (function () {
         + '</th><th class="day LU">Lunes</th><th class="day MA">Martes</th>'
         + '<th class="day MI">Miércoles</th><th class="day JU">Jueves</th>'
         + '<th class="day VI">Viernes</th><th class="day SA">Sábado</th></tr>'
-
         + '<tr class="700"><th class="hour">07:00 - 08:00</th><td class="LU"></td><td class="MA"></td>'
         + '<td class="MI"></td><td class="JU"></td><td class="VI"></td><td class="SA"></td></tr>'
         + '<tr class="800"><th class="hour">08:00 - 09:00</th><td class="LU"></td><td class="MA"></td>'
@@ -301,9 +300,9 @@ var Tablero = new (function () {
                 grupo.schedule[i].day,
                 grupo.schedule[i].start,
                 grupo.schedule[i].duration,
-                `${grupo.schedule[i].isClass ? '' : '✳'}` +
-                `${materia.name}` + '\n' + grupo.schedule[i].room + ' G:' +
-                grupo.code + '',
+                `${grupo.schedule[i].isClass ? '' : ''}` + //✳
+                `${materia.name} (${grupo.schedule[i].room})` + '\n' + 
+                grupo.schedule[i].teacher + ' G:' + grupo.code + '',
                 color
             )
         }
@@ -346,7 +345,7 @@ var Tablero = new (function () {
                     $(`tr.${hora}`).find('td').length
                 ) {
                     i++
-                    $(`tr.${hora}`).remove()
+                    //$(`tr.${hora}`).remove()
                 }
                 else
                     break
@@ -360,7 +359,7 @@ var Tablero = new (function () {
                     $(`tr.${hora}`).find('td').length
                 ) {
                     j--
-                    $(`tr.${hora}`).remove()
+                    //$(`tr.${hora}`).remove()
                 }
                 else
                     break
@@ -378,9 +377,9 @@ var Tablero = new (function () {
                         $(`tr.${key}`).find('td').length) &&
                     !$(`tr.${key}`).find('td').is('[rowspan]')
                 ) {
-                    $(`tr.${key} th`).text(' ').css('border-top', 'none')
-                    $(`tr.${key} th`).css('border-bottom', 'none')
-                    $(`tr.${key} th`).addClass('borderTop')
+                    //$(`tr.${key} th`).text(' ').css('border-top', 'none')
+                    //$(`tr.${key} th`).css('border-bottom', 'none')
+                    //$(`tr.${key} th`).addClass('borderTop')
                 }
             }
         }
