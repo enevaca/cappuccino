@@ -342,6 +342,8 @@ a.grupo.selected {
 .color10 { background-color: hsla(20, 100%, 50%, 0.7); }
 .color11 { background-color: hsla(60, 100%, 50%, 0.7); }
 .color12 { background-color: hsla(100, 100%, 50%, 0.7); }
+.color13 { background-color: hsla(15, 100%, 50%, 0.7); }
+.color14 { background-color: hsla(220, 100%, 50%, 0.7); }
 
 #schedule table tr td.collision {
     /* background-color: #ffffff; */

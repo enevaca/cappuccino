@@ -6,7 +6,7 @@
       "code": "1",
       "subjects": [
         {
-          "code": "1803013",
+          "code": "MAT101",
           "name": "MAT101",
           "groups": [
             {
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "code": "2002004",
+          "code": "FIS100",
           "name": "FIS100",
           "groups": [
             {
@@ -282,7 +282,7 @@
           ]
         },
         {
-          "code": "2004163",
+          "code": "MAT100",
           "name": "MAT100",
           "groups": [
             {
@@ -420,7 +420,7 @@
           ]
         },
         {
-          "code": "2006063",
+          "code": "SIS100",
           "name": "SIS100",
           "groups": [
             {
@@ -714,7 +714,7 @@
           ]
         },
         {
-          "code": "2008159",
+          "code": "SHC100",
           "name": "SHC100",
           "groups": [
             {
@@ -813,7 +813,7 @@
       "code": "2",
       "subjects": [
         {
-          "code": "2002005",
+          "code": "MAT103",
           "name": "MAT103",
           "groups": [
             {
@@ -863,7 +863,7 @@
           ]
         },
         {
-          "code": "2002006",
+          "code": "SIS101",
           "name": "SIS101",
           "groups": [
             {
@@ -992,7 +992,7 @@
           ]
         },
         {
-          "code": "2004091",
+          "code": "FIS200",
           "name": "FIS200",
           "groups": [
             {
@@ -1064,7 +1064,7 @@
           ]
         },
         {
-          "code": "2008160",
+          "code": "MAT102",
           "name": "MAT102",
           "groups": [
             {
@@ -1136,7 +1136,7 @@
           ]
         },
         {
-          "code": "2002006",
+          "code": "ADM100",
           "name": "ADM100",
           "groups": [
             {
@@ -1186,7 +1186,7 @@
           ]
         },
         {
-          "code": "2002006",
+          "code": "SIS308",
           "name": "SIS308",
           "groups": [
             {
@@ -1263,14 +1263,14 @@
       "code": "3",
       "subjects": [
         {
-          "code": "2002007",
+          "code": "MAT207",
           "name": "MAT207",
           "groups": [
             {
               "code": "7",
               "schedule": [
                 {
-                  "day": "Lu",
+                  "day": "LU",
                   "start": "900",
                   "end": "1100",
                   "duration": 2,
@@ -1292,7 +1292,7 @@
               "code": "9",
               "schedule": [
                 {
-                  "day": "Lu",
+                  "day": "LU",
                   "start": "700",
                   "end": "900",
                   "duration": 2,
@@ -1313,7 +1313,7 @@
           ]
         },
         {
-          "code": "2002008",
+          "code": "MAT280",
           "name": "MAT280",
           "groups": [
             {
@@ -1363,7 +1363,7 @@
           ]
         },
         {
-          "code": "2002009",
+          "code": "SIS457",
           "name": "SIS457",
           "groups": [
             {
@@ -1463,7 +1463,7 @@
           ]
         },
         {
-          "code": "2004092",
+          "code": "SIS302",
           "name": "SIS302",
           "groups": [
             {
@@ -1525,7 +1525,7 @@
           ]
         },
         {
-          "code": "2008161",
+          "code": "SIS204",
           "name": "SIS204",
           "groups": [
             {
@@ -1559,7 +1559,7 @@
           ]
         },
         {
-          "code": "2008161",
+          "code": "GEN410",
           "name": "GEN410",
           "groups": [
             {
@@ -1614,7 +1614,7 @@
       "code": "4",
       "subjects": [
         {
-          "code": "2002010",
+          "code": "SIS370",
           "name": "SIS370",
           "groups": [
             {
@@ -1642,7 +1642,7 @@
           ]
         },
         {
-          "code": "2002011",
+          "code": "SIS304",
           "name": "SIS304",
           "groups": [
             {
@@ -1692,7 +1692,7 @@
           ]
         },
         {
-          "code": "2002012",
+          "code": "SIS251",
           "name": "SIS251",
           "groups": [
             {
@@ -1726,7 +1726,7 @@
           ]
         },
         {
-          "code": "2002013",
+          "code": "MAT205",
           "name": "MAT205",
           "groups": [
             {
@@ -1754,7 +1754,7 @@
           ]
         },
         {
-          "code": "2002014",
+          "code": "SIS107",
           "name": "SIS107",
           "groups": [
             {
@@ -1782,7 +1782,7 @@
           ]
         },
         {
-          "code": "",
+          "code": "SIS125",
           "name": "SIS125",
           "groups": [
             {
@@ -1815,7 +1815,7 @@
       "code": "5",
       "subjects": [
         {
-          "code": "2002015",
+          "code": "SIS252",
           "name": "SIS252",
           "groups": [
             {
@@ -1905,7 +1905,7 @@
           ]
         },
         {
-          "code": "2002016",
+          "code": "SIS145",
           "name": "SIS145",
           "groups": [
             {
@@ -1933,7 +1933,7 @@
           ]
         },
         {
-          "code": "2002017",
+          "code": "SIS313",
           "name": "SIS313",
           "groups": [
             {
@@ -1981,7 +1981,7 @@
           ]
         },
         {
-          "code": "2002018",
+          "code": "SIS315",
           "name": "SIS315",
           "groups": [
             {
@@ -2009,7 +2009,7 @@
           ]
         },
         {
-          "code": "2002019",
+          "code": "SIS209",
           "name": "SIS209",
           "groups": [
             {
@@ -2037,7 +2037,7 @@
           ]
         },
         {
-          "code": "2002019",
+          "code": "SIS301",
           "name": "SIS301",
           "groups": [
             {
@@ -2070,7 +2070,7 @@
       "code": "6",
       "subjects": [
         {
-          "code": "2002020",
+          "code": "SIS324",
           "name": "SIS324",
           "groups": [
             {
@@ -2098,7 +2098,7 @@
           ]
         },
         {
-          "code": "2002021",
+          "code": "SIS303",
           "name": "SIS303",
           "groups": [
             {
@@ -2126,7 +2126,7 @@
           ]
         },
         {
-          "code": "2002022",
+          "code": "SIS310",
           "name": "SIS310",
           "groups": [
             {
@@ -2154,7 +2154,7 @@
           ]
         },
         {
-          "code": "2002023",
+          "code": "IND210",
           "name": "IND210",
           "groups": [
             {
@@ -2182,7 +2182,7 @@
           ]
         },
         {
-          "code": "2002024",
+          "code": "SIS386",
           "name": "SIS386",
           "groups": [
             {
@@ -2210,7 +2210,7 @@
           ]
         },
         {
-          "code": "2002024",
+          "code": "SIS256",
           "name": "SIS256",
           "groups": [
             {
@@ -2252,7 +2252,7 @@
           ]
         },
         {
-          "code": "2002024",
+          "code": "SIS426",
           "name": "SIS426",
           "groups": [
             {
@@ -2285,7 +2285,7 @@
       "code": "7",
       "subjects": [
         {
-          "code": "2002025",
+          "code": "SIS391",
           "name": "SIS391",
           "groups": [
             {
@@ -2313,8 +2313,8 @@
           ]
         },
         {
-          "code": "2002026",
-          "name": "SIS 420",
+          "code": "SIS420",
+          "name": "SIS420",
           "groups": [
             {
               "code": "L1",
@@ -2361,7 +2361,7 @@
           ]
         },
         {
-          "code": "2002027",
+          "code": "SIS380",
           "name": "SIS380",
           "groups": [
             {
@@ -2389,7 +2389,7 @@
           ]
         },
         {
-          "code": "2002028",
+          "code": "SIS312",
           "name": "SIS312",
           "groups": [
             {
@@ -2417,7 +2417,7 @@
           ]
         },
         {
-          "code": "2002053",
+          "code": "SIS320",
           "name": "SIS320",
           "groups": [
             {
@@ -2445,7 +2445,7 @@
           ]
         },
         {
-          "code": "2002065",
+          "code": "SIS406",
           "name": "SIS406",
           "groups": [
             {
@@ -2473,7 +2473,7 @@
           ]
         },
         {
-          "code": "2002065",
+          "code": "SIS311",
           "name": "SIS311",
           "groups": [
             {
@@ -2506,7 +2506,7 @@
       "code": "8",
       "subjects": [
         {
-          "code": "2002003",
+          "code": "SIS316",
           "name": "SIS316",
           "groups": [
             {
@@ -2534,7 +2534,7 @@
           ]
         },
         {
-          "code": "2002030",
+          "code": "IND217",
           "name": "IND217",
           "groups": [
             {
@@ -2562,7 +2562,7 @@
           ]
         },
         {
-          "code": "2002031",
+          "code": "CPA107",
           "name": "CPA107",
           "groups": [
             {
@@ -2590,7 +2590,7 @@
           ]
         },
         {
-          "code": "2002032",
+          "code": "SIS395",
           "name": "SIS395",
           "groups": [
             {
@@ -2618,7 +2618,7 @@
           ]
         },
         {
-          "code": "2002044",
+          "code": "SIS460",
           "name": "SIS460",
           "groups": [
             {
@@ -2638,7 +2638,7 @@
           ]
         },
         {
-          "code": "2002045",
+          "code": "SHC130",
           "name": "SHC130",
           "groups": [
             {
@@ -2658,7 +2658,7 @@
           ]
         },
         {
-          "code": "2002047",
+          "code": "SIS428",
           "name": "SIS428",
           "groups": [
             {
@@ -2691,7 +2691,7 @@
       "code": "9",
       "subjects": [
         {
-          "code": "2002035",
+          "code": "SHC160",
           "name": "SHC160",
           "groups": [
             {
@@ -2741,7 +2741,7 @@
           ]
         },
         {
-          "code": "2016092",
+          "code": "SHC170",
           "name": "SHC170",
           "groups": [
             {
@@ -2761,7 +2761,7 @@
           ]
         },
         {
-          "code": "2016092",
+          "code": "SHC180",
           "name": "SHC180",
           "groups": [
             {
@@ -2830,7 +2830,7 @@
       "code": "10",
       "subjects": [
         {
-          "code": "2002034",
+          "code": "SHC190",
           "name": "SHC190",
           "groups": [
             {

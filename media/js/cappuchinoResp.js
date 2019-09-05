@@ -314,6 +314,7 @@ var Tablero = new (function () {
         for (var i = 0; i < duracion; i++) {
             var celda = $('tr:nth-child(' + (periodos[hora] + i) + ') :nth-child(' + dias[dia] + ')')
             if (celda.text() !== '') {
+                celda.append('✳');
                 celda.removeClass().addClass('collision');
             } else {
                 celda.addClass(color)
