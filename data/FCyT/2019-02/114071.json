@@ -808,14 +808,34 @@
               "schedule": [
                 {
                   "day": "LU",
-                  "start": "1600",
-                  "end": "1800",
+                  "start": "1800",
+                  "end": "2000",
                   "duration": 2,
-                  "room": "C101",
-                  "teacher": " W. ALVAREZ  "
+                  "room": "B206",
+                  "teacher": "W. ALVAREZ"
                 }
               ],
-              "teacher": " W. ALVAREZ  "
+              "teacher": "W. ALVAREZ"
+            }
+          ]
+        },
+        {
+          "code": "2002028",
+          "name": "SIS204",
+          "groups": [
+            {
+              "code": "2",
+              "schedule": [
+                {
+                  "day": "MI",
+                  "start": "1800",
+                  "end": "2000",
+                  "duration": 2,
+                  "room": "C202",
+                  "teacher": "W. ALVAREZ"
+                }
+              ],
+              "teacher": "W. ALVAREZ"
             }
           ]
         },
