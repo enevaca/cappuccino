@@ -10,26 +10,26 @@
           "name": "MAT101",
           "groups": [
             {
-              "code": "24",
+              "code": "23",
               "schedule": [
                 {
-                  "day": "MA",
-                  "start": "700",
-                  "end": "900",
+                  "day": "LU",
+                  "start": "1800",
+                  "end": "2000",
                   "duration": 2,
-                  "room": "C301",
-                  "teacher": "F. RODRIGUEZ"
+                  "room": "C104",
+                  "teacher": "W. MALLEA"
                 },
                 {
-                  "day": "JU",
-                  "start": "700",
-                  "end": "900",
+                  "day": "MA",
+                  "start": "900",
+                  "end": "1100",
                   "duration": 2,
-                  "room": "C301",
-                  "teacher": "F. RODRIGUEZ"
+                  "room": "C002",
+                  "teacher": "W. MALLEA"
                 }
               ],
-              "teacher": "F. RODRIGUEZ"
+              "teacher": "W. MALLEA"
             }
           ]
         },
@@ -38,26 +38,26 @@
           "name": "FIS100",
           "groups": [
             {
-              "code": "20",
+              "code": "21",
               "schedule": [
                 {
                   "day": "LU",
-                  "start": "1100",
-                  "end": "1300",
+                  "start": "900",
+                  "end": "1100",
                   "duration": 2,
-                  "room": "C005",
-                  "teacher": "M. ARANCIBIA"
+                  "room": "E201",
+                  "teacher": "A. PARRA"
                 },
                 {
-                  "day": "VI",
-                  "start": "1100",
-                  "end": "1300",
+                  "day": "MI",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "C206",
-                  "teacher": "M. ARANCIBIA"
+                  "room": "C201",
+                  "teacher": "A. PARRA"
                 }
               ],
-              "teacher": "M. ARANCIBIA"
+              "teacher": "A. PARRA"
             }
           ]
         },
@@ -66,26 +66,26 @@
           "name": "MAT100",
           "groups": [
             {
-              "code": "20",
+              "code": "21",
               "schedule": [
                 {
                   "day": "MA",
-                  "start": "900",
-                  "end": "1100",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
-                  "room": "C102",
-                  "teacher": "T. TORRES"
+                  "room": "C201",
+                  "teacher": "L. ARRUETA"
                 },
                 {
                   "day": "JU",
-                  "start": "900",
-                  "end": "1100",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
-                  "room": "C102",
-                  "teacher": "T. TORRES"
+                  "room": "C201",
+                  "teacher": "L. ARRUETA"
                 }
               ],
-              "teacher": "T. TORRES"
+              "teacher": "L. ARRUETA"
             }
           ]
         },
@@ -94,40 +94,40 @@
           "name": "SIS100",
           "groups": [
             {
-              "code": "L2",
+              "code": "L6",
               "schedule": [
                 {
                   "day": "MA",
-                  "start": "1400",
-                  "end": "1600",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "F302",
-                  "teacher": "J. VILLAFAN"
+                  "room": "A209",
+                  "teacher": "N. COCA"
                 },
                 {
                   "day": "JU",
-                  "start": "1400",
-                  "end": "1600",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "F302",
-                  "teacher": "J. VILLAFAN"
+                  "room": "A209",
+                  "teacher": "N. COCA"
                 }
               ],
-              "teacher": "F. VILLAFAN"
+              "teacher": "N. COCA"
             },
             {
-              "code": "2",
+              "code": "6",
               "schedule": [
                 {
                   "day": "LU",
-                  "start": "1400",
-                  "end": "1600",
+                  "start": "1600",
+                  "end": "1800",
                   "duration": 2,
                   "room": "F302",
-                  "teacher": "J. VILLAFAN"
+                  "teacher": "N. COCA"
                 }
               ],
-              "teacher": "J. VILLAFAN"
+              "teacher": "N. COCA"
             }
           ]
         },
@@ -136,22 +136,22 @@
           "name": "SHC100",
           "groups": [
             {
-              "code": "4",
+              "code": "1",
               "schedule": [
                 {
                   "day": "MI",
-                  "start": "1600",
-                  "end": "1800",
+                  "start": "1400",
+                  "end": "1600",
                   "duration": 2,
-                  "room": "F201",
+                  "room": "D101",
                   "teacher": "A. CALVIMONTES"
                 },
                 {
                   "day": "VI",
-                  "start": "900",
-                  "end": "1100",
+                  "start": "700",
+                  "end": "900",
                   "duration": 2,
-                  "room": "C202",
+                  "room": "D102",
                   "teacher": "A. CALVIMONTES"
                 }
               ],
@@ -169,26 +169,26 @@
           "name": "MAT102",
           "groups": [
             {
-              "code": "7",
+              "code": "9",
               "schedule": [
                 {
-                  "day": "MI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "E203",
-                  "teacher": "E. IGLESIAS"
-                },
-                {
-                  "day": "JU",
+                  "day": "MA",
                   "start": "1100",
                   "end": "1300",
                   "duration": 2,
-                  "room": "D001",
-                  "teacher": "E. IGLESIAS"
+                  "room": "C101",
+                  "teacher": "J. RAMOS"
+                },
+                {
+                  "day": "JU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "C106",
+                  "teacher": "J. RAMOS"
                 }
               ],
-              "teacher": "E. IGLESIAS"
+              "teacher": "J. RAMOS"
             },
             {
               "code": "8",
@@ -214,26 +214,26 @@
               "teacher": "E. PACHECO"
             },
             {
-              "code": "9",
+              "code": "7",
               "schedule": [
                 {
-                  "day": "MA",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "C101",
-                  "teacher": "J. RAMOS"
-                },
-                {
-                  "day": "JU",
+                  "day": "MI",
                   "start": "900",
                   "end": "1100",
                   "duration": 2,
-                  "room": "C106",
-                  "teacher": "J. RAMOS"
+                  "room": "E203",
+                  "teacher": "E. IGLESIAS"
+                },
+                {
+                  "day": "JU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "D001",
+                  "teacher": "E. IGLESIAS"
                 }
               ],
-              "teacher": "J. RAMOS"
+              "teacher": "E. IGLESIAS"
             }
           ]
         },
@@ -334,7 +334,7 @@
                 }
 
               ],
-              "teacher": "J. ALVAREZ"
+              "teacher": "G. ALVAREZ"
             },
             {
               "code": "11",
@@ -454,34 +454,6 @@
                 }
               ],
               "teacher": "H. PEÑARANDA"
-            }
-          ]
-        },
-        {
-          "code": "2002009",
-          "name": "SIS103",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "E. RIVERO"
-                },
-                {
-                  "day": "MI",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "E. RIVERO"
-                }
-              ],
-              "teacher": "E. RIVERO"
             }
           ]
         },
