@@ -169,6 +169,51 @@
           "name": "MAT102",
           "groups": [
             {
+              "code": "7",
+              "schedule": [
+                {
+                  "day": "MI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "E203",
+                  "teacher": "E. IGLESIAS"
+                },
+                {
+                  "day": "JU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "D001",
+                  "teacher": "E. IGLESIAS"
+                }
+              ],
+              "teacher": "E. IGLESIAS"
+            },
+            {
+              "code": "8",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "E203",
+                  "teacher": " E. PACHECO"
+                },
+                {
+                  "day": "VI",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "C102",
+                  "teacher": "E. PACHECO"
+                }
+
+              ],
+              "teacher": "E. PACHECO"
+            },
+            {
               "code": "9",
               "schedule": [
                 {
@@ -196,6 +241,50 @@
           "code": "2002006",
           "name": "FIS200",
           "groups": [
+            {
+              "code": "6",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "E301",
+                  "teacher": "R. GUTIERREZ"
+                },
+                {
+                  "day": "JU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "E301",
+                  "teacher": "R.  GUTIERREZ"
+                }
+              ],
+              "teacher": "R. GUTIERREZ"
+            },
+            {
+              "code": "7",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "C301",
+                  "teacher": "J. MAITA"
+                },
+                {
+                  "day": "MI",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "C301",
+                  "teacher": "J. MAITA"
+                }
+              ],
+              "teacher": "J. MAITA"
+            },
             {
               "code": "8",
               "schedule": [
@@ -225,6 +314,29 @@
           "name": "MAT103",
           "groups": [
             {
+              "code": "10",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "F202",
+                  "teacher": "G. ALVAREZ"
+                },
+                {
+                  "day": "JU",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "C103",
+                  "teacher": "G. ALVAREZ"
+                }
+
+              ],
+              "teacher": "J. ALVAREZ"
+            },
+            {
               "code": "11",
               "schedule": [
                 {
@@ -246,13 +358,44 @@
               ],
               "teacher": "J. RAMOS"
             }
+            
           ]
         },
         {
           "code": "2002008",
           "name": "SIS101",
           "groups": [
-            {
+             {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": "H. PEÑARANDA"
+                },
+                {
+                  "day": "MA",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": "H. PEÑARANDA"
+                },
+                {
+                  "day": "MI",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": "H. PEÑARANDA"
+                }
+              ],
+              "teacher": "H. PEÑARANDA"
+            },
+             {
               "code": "2",
               "schedule": [
                 {
@@ -275,6 +418,36 @@
                   "day": "VI",
                   "start": "900",
                   "end": "1100",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": "H. PEÑARANDA"
+                }
+              ],
+              "teacher": "H. PEÑARANDA"
+            },
+             {
+              "code": "3",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "B206",
+                  "teacher": "H. PEÑARANDA"
+                },
+                {
+                  "day": "JU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": "H. PEÑARANDA"
+                },
+                {
+                  "day": "VI",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
                   "room": "B205",
                   "teacher": "H. PEÑARANDA"
@@ -311,133 +484,6 @@
               "teacher": "E. RIVERO"
             }
           ]
-        }
-      ]
-    },
-    {
-      "code": "3",
-      "subjects": [
-        {
-          "code": "2002010",
-          "name": "MAT102",
-          "groups": [
-            {
-              "code": "8",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "E203",
-                  "teacher": " E. PACHECO"
-                },
-                {
-                  "day": "VI",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "C102",
-                  "teacher": "E. PACHECO"
-                }
-
-              ],
-              "teacher": "E. PACHECO"
-            }
-          ]
-        },
-        {
-          "code": "2002011",
-          "name": "SIS101",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "H. PEÑARANDA"
-                },
-                {
-                  "day": "MA",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "H. PEÑARANDA"
-                },
-                {
-                  "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "H. PEÑARANDA"
-                }
-              ],
-              "teacher": "H. PEÑARANDA"
-            }
-          ]
-        },
-        {
-          "code": "2002012",
-          "name": "FIS200",
-          "groups": [
-            {
-              "code": "6",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "700",
-                  "end": "900",
-                  "duration": 2,
-                  "room": "E301",
-                  "teacher": "R. GUTIERREZ"
-                },
-                {
-                  "day": "JU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "E301",
-                  "teacher": "R.  GUTIERREZ"
-                }
-              ],
-              "teacher": "R. GUTIERREZ"
-            }
-          ]
-        },
-        {
-          "code": "2002013",
-          "name": "MAT103",
-          "groups": [
-            {
-              "code": "10",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "F202",
-                  "teacher": "G. ALVAREZ"
-                },
-                {
-                  "day": "JU",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "C103",
-                  "teacher": "G. ALVAREZ"
-                }
-
-              ],
-              "teacher": "J. ALVAREZ"
-            }
-          ]
         },
         {
           "code": "2002014",
@@ -464,82 +510,7 @@
                 }
               ],
               "teacher": "N. VACA"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "4",
-      "subjects": [
-        {
-          "code": "2002015",
-          "name": "MAT102",
-          "groups": [
-            {
-              "code": "7",
-              "schedule": [
-                {
-                  "day": "MI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "E203",
-                  "teacher": "E. IGLESIAS"
-                },
-                {
-                  "day": "JU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "D001",
-                  "teacher": "E. IGLESIAS"
-                }
-              ],
-              "teacher": "E. IGLESIAS"
-            }
-          ]
-        },
-        {
-          "code": "2002016",
-          "name": "SIS101",
-          "groups": [
-            {
-              "code": "3",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "B206",
-                  "teacher": "H. PEÑARANDA"
-                },
-                {
-                  "day": "JU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "H. PEÑARANDA"
-                },
-                {
-                  "day": "VI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "H. PEÑARANDA"
-                }
-              ],
-              "teacher": "H. PEÑARANDA"
-            }
-          ]
-        },
-        {
-          "code": "2002017",
-          "name": "SIS308",
-          "groups": [
+            },
             {
               "code": "2",
               "schedule": [
@@ -556,18 +527,12 @@
                   "start": "1800",
                   "end": "2000",
                   "duration": 2,
-                  "room": "C102",
+                  "room": "C201",
                   "teacher": "N. VACA"
                 }
               ],
               "teacher": "N. VACA"
-            }
-          ]
-        },
-        {
-          "code": "2002018",
-          "name": "SIS308",
-          "groups": [
+            },
             {
               "code": "3",
               "schedule": [
@@ -590,13 +555,12 @@
               ],
               "teacher": "M. DEL RIO"
             }
-
           ]
         }
       ]
     },
     {
-      "code": "5",
+      "code": "3",
       "subjects": [
         {
           "code": "2002019",
@@ -623,6 +587,28 @@
                 }
               ],
               "teacher": "M. CUELLAR"
+            },
+            {
+              "code": "2",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "C003",
+                  "teacher": "M. CUELLAR"
+                },
+                {
+                  "day": "MI",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": "D003",
+                  "teacher": "M. CUELLAR"
+                }
+              ],
+              "teacher": "M. CUELLAR"
             }
           ]
         },
@@ -630,6 +616,78 @@
           "code": "2002020",
           "name": "SIS457",
           "groups": [
+            {
+              "code": "L1",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "F304",
+                  "teacher": "W. PACHECO"
+                },
+                {
+                  "day": "JU",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "F304",
+                  "teacher": "W. PACHECO"
+                }
+              ],
+              "teacher": " W. PACHECO"
+            },
+            {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "D102",
+                  "teacher": "W. PACHECO"
+                }
+              ],
+              "teacher": "W. PACHECO"
+            },
+            {
+              "code": "L2",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "A209",
+                  "teacher": "W. PACHECO"
+                },
+                {
+                  "day": "JU",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "A209",
+                  "teacher": "W. PACHECO"
+                }
+              ],
+              "teacher": " W. PACHECO"
+            },
+            {
+              "code": "2",
+              "schedule": [
+                {
+                  "day": "MI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "A2019",
+                  "teacher": "A. MOLINA"
+                }
+              ],
+              "teacher": "A. MOLINA"
+            },
             {
               "code": "L3",
               "schedule": [
@@ -679,26 +737,28 @@
                 }
               ],
               "teacher": "O. VELASCO"
-            }
-          ]
-        },
-        {
-          "code": "2002023",
-          "name": "SIS457",
-          "groups": [
+            },
             {
-              "code": "2",
+              "code": "3",
               "schedule": [
                 {
-                  "day": "MI",
-                  "start": "900",
-                  "end": "1100",
+                  "day": "MA",
+                  "start": "1800",
+                  "end": "2000",
                   "duration": 2,
-                  "room": "A2019",
-                  "teacher": "A. MOLINA"
+                  "room": "B108",
+                  "teacher": " F. ZALAYA"
+                },
+                {
+                  "day": "VI",
+                  "start": "1800",
+                  "end": "2000",
+                  "duration": 2,
+                  "room": "C101",
+                  "teacher": "F. ZELAYA"
                 }
               ],
-              "teacher": "A. MOLINA"
+              "teacher": "F. ZELAYA"
             }
           ]
         },
@@ -706,6 +766,35 @@
           "code": "2002024",
           "name": "SIS302",
           "groups": [
+            {
+
+              "code": "L1",
+              "schedule": [
+                {
+                  "day": "VI",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "A210",
+                  "teacher": "M. CONDO"
+                }
+              ],
+              "teacher": "M. CONDO"
+            },
+            {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "C201",
+                  "teacher": "M. CONDO"
+                }
+              ],
+              "teacher": "M. CONDO"
+            },
             {
               "code": "L2",
               "schedule": [
@@ -734,44 +823,13 @@
               ],
               "teacher": "M. CONDO"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "6",
-      "subjects": [
-        {
-          "code": "2002025",
-          "name": "MAT208",
-          "groups": [
-            {
-              "code": "2",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "700",
-                  "end": "900",
-                  "duration": 2,
-                  "room": "C003",
-                  "teacher": "M. CUELLAR"
-                },
-                {
-                  "day": "MI",
-                  "start": "700",
-                  "end": "900",
-                  "duration": 2,
-                  "room": "D003",
-                  "teacher": "M. CUELLAR"
-                }
-              ],
-              "teacher": "M. CUELLAR"
-            }
+            
+            
           ]
         },
         {
-          "code": "2002026",
-          "name": "SIS302",
+          "code": "2002028",
+          "name": "SIS204",
           "groups": [
             {
               "code": "1",
@@ -781,153 +839,11 @@
                   "start": "1600",
                   "end": "1800",
                   "duration": 2,
-                  "room": "C201",
-                  "teacher": "M. CONDO"
-                },
-                {
-                  "day": "VI",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "A210",
-                  "teacher": "M. CONDO"
-                }
-              ],
-              "teacher": "M. CONDO"
-            }
-          ]
-        },
-        {
-          "code": "2002027",
-          "name": "SIS457",
-          "groups": [
-            {
-              "code": "L1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "W. PACHECO"
-                },
-                {
-                  "day": "JU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "W. PACHECO"
-                }
-              ],
-              "teacher": " W. PACHECO"
-            },
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "D102",
-                  "teacher": "W. PACHECO"
-                }
-              ],
-              "teacher": "W. PACHECO"
-            },
-            {
-              "code": "L2",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1400",
-                  "end": "1500",
-                  "duration": 1,
-                  "room": "A209",
-                  "teacher": "W. PACHECO"
-                },
-                {
-                  "day": "JU",
-                  "start": "1400",
-                  "end": "1500",
-                  "duration": 1,
-                  "room": "A209",
-                  "teacher": "W. PACHECO"
-                }
-              ],
-              "teacher": " W. PACHECO"
-            },
-            {
-              "code": "L3",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1500",
-                  "end": "1600",
-                  "duration": 1,
-                  "room": "A209",
-                  "teacher": "W. PACHECO"
-                },
-                {
-                  "day": "JU",
-                  "start": "1500",
-                  "end": "1600",
-                  "duration": 1,
-                  "room": "A209",
-                  "teacher": "W. PACHECO"
-                }
-              ],
-              "teacher": " W. PACHECO"
-            }
-          ]
-        },
-        {
-          "code": "2002028",
-          "name": "SI204",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
                   "room": "C101",
-                  "teacher": " SUPLENCIA  "
+                  "teacher": " W. ALVAREZ  "
                 }
               ],
-              "teacher": " SUPLENCIA  "
-            }
-          ]
-        },
-        {
-          "code": "2002029",
-          "name": "GEN410",
-          "groups": [
-            {
-              "code": "3",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "B108",
-                  "teacher": " F. ZALAYA"
-                },
-                {
-                  "day": "VI",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "C101",
-                  "teacher": "F. ZELAYA"
-                }
-              ],
-              "teacher": "F. ZELAYA"
+              "teacher": " W. ALVAREZ  "
             }
           ]
         },
@@ -995,35 +911,14 @@
         }
       ]
     },
+  
     {
-      "code": "7",
+      "code": "4",
       "subjects": [
         {
           "code": "2002031",
           "name": "SIS304",
           "groups": [
-            {
-              "code": "2",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "E103",
-                  "teacher": "R. VILLAFAN"
-                },
-                {
-                  "day": "MI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "DS03",
-                  "teacher": "R. VILLAFAN"
-                }
-              ],
-              "teacher": "R. VILLAFAN"
-            },
             {
               "code": "1",
               "schedule": [
@@ -1045,27 +940,36 @@
                 }
               ],
               "teacher": "R. VILLAFAN"
+            },
+            {
+              "code": "2",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "E103",
+                  "teacher": "R. VILLAFAN"
+                },
+                {
+                  "day": "MI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "DS03",
+                  "teacher": "R. VILLAFAN"
+                }
+              ],
+              "teacher": "R. VILLAFAN"
             }
+            
           ]
         },
         {
           "code": "2002032",
           "name": "SIS251 ",
           "groups": [
-            {
-              "code": "2",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": " S. UGRINOVIC"
-                }
-              ],
-              "teacher": "S. UGRINOVIC"
-            },
             {
               "code": "1",
               "schedule": [
@@ -1079,7 +983,22 @@
                 }
               ],
               "teacher": " S. UGRINOVIC"
+            },
+            {
+              "code": "2",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "1800",
+                  "end": "2000",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": " S. UGRINOVIC"
+                }
+              ],
+              "teacher": "S. UGRINOVIC"
             }
+            
           ]
         },
         {
@@ -1109,12 +1028,7 @@
               "teacher": " G. POQUECHOQUE"
             }
           ]
-        }
-      ]
-    },
-    {
-      "code": "8",
-      "subjects": [
+        },
         {
           "code": "2002034",
           "name": "SIS110",
@@ -1210,12 +1124,40 @@
       ]
     },
     {
-      "code": "9",
+      "code": "5",
       "subjects": [
         {
           "code": "2002037",
           "name": "SIS252",
           "groups": [
+            {
+              "code": "L1",
+              "schedule": [
+                {
+                  "day": "JU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "F306",
+                  "teacher": "M. ARENAS"
+                }
+              ],
+              "teacher": "M. ARENAS "
+            },
+            {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "JU",
+                  "start": "1600",
+                  "end": "1800",
+                  "duration": 2,
+                  "room": "DS03",
+                  "teacher": "M. ARENAS"
+                }
+              ],
+              "teacher": "M. ARENAS"
+            },
             {
               "code": "L2",
               "schedule": [
@@ -1272,6 +1214,7 @@
               ],
               "teacher": "J.ZEBALLOS"
             }
+           
           ]
         },
         {
@@ -1340,152 +1283,9 @@
         }
       ]
     },
+   
     {
-      "code": "10",
-      "subjects": [
-        {
-          "code": "2002040",
-          "name": "SIS252",
-          "groups": [
-            {
-              "code": "L1",
-              "schedule": [
-                {
-                  "day": "JU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "F306",
-                  "teacher": "M. ARENAS"
-                }
-              ],
-              "teacher": "M. ARENAS "
-            },
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "JU",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "DS03",
-                  "teacher": "M. ARENAS"
-                }
-              ],
-              "teacher": "M. ARENAS"
-            }
-          ]
-        },
-        {
-          "code": "2002041",
-          "name": "SIS324",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "C203",
-                  "teacher": "R. DURAN"
-                },
-                {
-                  "day": "VI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "C204",
-                  "teacher": "R. DURAN"
-                }
-              ],
-              "teacher": "R. DURAN "
-            }
-          ]
-        },
-        {
-          "code": "2002042",
-          "name": "SIS256",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "C. MONTELLANO"
-                },
-                {
-                  "day": "MI",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "C. MONTELLANO"
-                }
-              ],
-              "teacher": "C. MONTELLANO "
-            },
-            {
-              "code": "2",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": "C. MONTELLANO"
-                }
-              ],
-              "teacher": "C. MONTELLANO"
-            }
-          ]
-        },
-        {
-          "code": "2002043",
-          "name": "SIS420",
-          "groups": [
-            {
-              "code": "L1",
-              "schedule": [
-                {
-                  "day": "VI",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "A209",
-                  "teacher": "W. PACHECO"
-                }
-              ],
-              "teacher": "W. PACHECO "
-            },
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": "W. PACHECO"
-                }
-
-              ],
-              "teacher": "W. PACHECO"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "11",
+      "code": "6",
       "subjects": [
         {
           "code": "2002044",
@@ -1597,20 +1397,6 @@
           "name": "COM460",
           "groups": [
             {
-              "code": "L2",
-              "schedule": [
-                {
-                  "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "B206",
-                  "teacher": "M. ARANCIBIA"
-                }
-              ],
-              "teacher": "M. ARANCIBIA"
-            },
-            {
               "code": "1",
               "schedule": [
                 {
@@ -1623,27 +1409,28 @@
                 }
               ],
               "teacher": "M. ARANCIBIA"
+            },
+            {
+              "code": "L2",
+              "schedule": [
+                {
+                  "day": "MI",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "B206",
+                  "teacher": "M. ARANCIBIA"
+                }
+              ],
+              "teacher": "M. ARANCIBIA"
             }
+           
           ]
         },
         {
           "code": "2002049",
           "name": " SIS421",
           "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "MI",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": " PACHECO"
-                }
-              ],
-              "teacher": "PACHECO"
-            },
             {
               "code": "L1",
               "schedule": [
@@ -1657,13 +1444,28 @@
                 }
               ],
               "teacher": "PACHECO"
+            },
+            {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "MI",
+                  "start": "1400",
+                  "end": "1600",
+                  "duration": 2,
+                  "room": "B205",
+                  "teacher": " PACHECO"
+                }
+              ],
+              "teacher": "PACHECO"
             }
+            
           ]
         }
       ]
     },
     {
-      "code": "12",
+      "code": "7",
       "subjects": [
         {
           "code": "2002050",
@@ -1804,45 +1606,12 @@
               "teacher": "D. ROCA"
             }
           ]
-        },
-        {
-          "code": "2002055",
-          "name": " SIS421",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "MI",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "B205",
-                  "teacher": " PACHECO"
-                }
-              ],
-              "teacher": "PACHECO"
-            },
-            {
-              "code": "L1",
-              "schedule": [
-                {
-                  "day": "VI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "F304",
-                  "teacher": " PACHECO"
-                }
-              ],
-              "teacher": "PACHECO"
-            }
-          ]
         }
+        
       ]
     },
     {
-      "code": "13",
+      "code": "8",
       "subjects": [
         {
           "code": "2002056",
@@ -1977,77 +1746,94 @@
               "teacher": "S. PEREZ"
             }
           ]
-        }
-      ]
-    },
-    {
-      "code": "14",
-      "subjects": [
+        },
         {
           "code": "2002061",
           "name": "SIS460",
+          "groups": [
+            {
+                  "code": "1",
+                  "schedule": [
+                    {
+                      "day": "LU",
+                      "start": "1400",
+                      "end": "1600",
+                      "duration": 2,
+                      "room": "C006",
+                      "teacher": "M. OVANDO"
+                    },
+                    {
+                      "day": "MI",
+                      "start": "1100",
+                      "end": "1300",
+                      "duration": 2,
+                      "room": "B108",
+                      "teacher": "M. OVANDO"
+                    }
+                  ],
+                  "teacher": "M. OVANDO"
+                }
+           ]
+        },
+        {
+          "code": "2002062",
+          "name": " SIS406",
+          "groups": [
+          {
+                  "code": "1",
+                  "schedule": [
+                    {
+                      "day": "MA",
+                      "start": "1600",
+                      "end": "1800",
+                      "duration": 2,
+                      "room": "F305",
+                      "teacher": "MONTELLANO"
+                    },
+                    {
+                      "day": "VI",
+                      "start": "900",
+                      "end": "1100",
+                      "duration": 2,
+                      "room": "F304",
+                      "teacher": "MONTELLANO"
+                    }
+                  ],
+                  "teacher": "MONTELLANO"
+                }
+          ]
+        }    
+      ]
+    },
+    {
+      "code": "9",
+      "subjects": [
+        {
+          "code": "2002063",
+          "name": "SHC180",
           "groups": [
             {
               "code": "1",
               "schedule": [
                 {
                   "day": "LU",
-                  "start": "1400",
-                  "end": "1600",
-                  "duration": 2,
-                  "room": "C006",
-                  "teacher": "M. OVANDO"
-                },
-                {
-                  "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "B108",
-                  "teacher": "M. OVANDO"
-                }
-              ],
-              "teacher": "M. OVANDO"
-            }
-          ]
-        },
-        {
-          "code": "2002062",
-          "name": " SIS406",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "MA",
-                  "start": "1600",
-                  "end": "1800",
-                  "duration": 2,
-                  "room": "F305",
-                  "teacher": "MONTELLANO"
-                },
-                {
-                  "day": "VI",
                   "start": "900",
                   "end": "1100",
                   "duration": 2,
-                  "room": "F304",
-                  "teacher": "MONTELLANO"
+                  "room": "B201",
+                  "teacher": "M. OVANDO"
+                },
+                {
+                  "day": "MA",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "B201",
+                  "teacher": "M. OVANDO"
                 }
               ],
-              "teacher": "MONTELLANO"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "15",
-      "subjects": [
-        {
-          "code": "2002063",
-          "name": "SHC180",
-          "groups": [
+              "teacher": "M. OVANDO "
+            },
             {
               "code": "2",
               "schedule": [
@@ -2099,6 +1885,28 @@
           "name": " SHC160",
           "groups": [
             {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "JU",
+                  "start": "1800",
+                  "end": "2000",
+                  "duration": 2,
+                  "room": "C005",
+                  "teacher": "O. OVANDO"
+                },
+                {
+                  "day": "VI",
+                  "start": "1800",
+                  "end": "2000",
+                  "duration": 2,
+                  "room": "B108",
+                  "teacher": "O. OVANDO"
+                }
+              ],
+              "teacher": "O.OVANDO"
+            },
+            {
               "code": "2",
               "schedule": [
                 {
@@ -2125,73 +1933,43 @@
       ]
     },
     {
-      "code": "16",
-      "subjects": [
-        {
-          "code": "2002065",
-          "name": "SHC180",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "B201",
-                  "teacher": "M. OVANDO"
-                },
-                {
-                  "day": "MA",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "B201",
-                  "teacher": "M. OVANDO"
-                }
-              ],
-              "teacher": "M. OVANDO "
-            }
-          ]
-        },
-        {
-          "code": "2002066",
-          "name": " SHC160",
-          "groups": [
-            {
-              "code": "1",
-              "schedule": [
-                {
-                  "day": "JU",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "C005",
-                  "teacher": "O. OVANDO"
-                },
-                {
-                  "day": "VI",
-                  "start": "1800",
-                  "end": "2000",
-                  "duration": 2,
-                  "room": "B108",
-                  "teacher": "O. OVANDO"
-                }
-              ],
-              "teacher": "O.OVANDO"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "17",
+      "code": "10",
       "subjects": [
         {
           "code": "2002066",
           "name": "SHC190",
           "groups": [
+            {
+              "code": "1",
+              "schedule": [
+                {
+                  "day": "MA",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "V. BELIANSKAYA"
+                },
+                {
+                  "day": "MA",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "V. BELIANSKAYA"
+                },
+                {
+                  "day": "MI",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": "C206",
+                  "teacher": "V. BELIANSKAYA"
+                }
+
+              ],
+              "teacher": "V. BELIANSKAYA"
+            },
             {
               "code": "2",
               "schedule": [
@@ -2223,26 +2001,65 @@
               "teacher": "R. DURAN"
             },
             {
-              "code": "10",
+              "code": "3",
               "schedule": [
                 {
-                  "day": "MA",
-                  "start": "700",
-                  "end": "900",
+                  "day": "MI",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
-                  "room": " VANAS ",
-                  "teacher": "G. POQUECHOQUE"
+                  "room": " ",
+                  "teacher": "O. VELASQUEZ"
                 },
                 {
                   "day": "JU",
-                  "start": "1800",
-                  "end": "2000",
+                  "start": "1100",
+                  "end": "1300",
                   "duration": 2,
-                  "room": " VANAS",
-                  "teacher": "G. POQUECHOQUE"
+                  "room": " ",
+                  "teacher": "O. VELASQUEZ"
+                },
+                {
+                  "day": "VI",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "O. VELASQUEZ"
+                }
+
+              ],
+              "teacher": "O. VELAZQUEZ"
+            },
+            {
+              "code": "4",
+              "schedule": [
+                {
+                  "day": "LU",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "J. ZEBALLOS"
+                },
+                {
+                  "day": "MI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "J. ZEBALLOS"
+                },
+                {
+                  "day": "MI",
+                  "start": "1100",
+                  "end": "1300",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "J. ZEBALLOS"
                 }
               ],
-              "teacher": "G. POQUECHOQUE"
+              "teacher": "J. ZEBALLOS"
             },
             {
               "code": "5",
@@ -2273,66 +2090,25 @@
                 }
               ],
               "teacher": "C. MONTELLANO"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "18",
-      "subjects": [
-        {
-          "code": "2002067",
-          "name": "SHC190",
-          "groups": [
-            {
-              "code": "9",
-              "schedule": [
-                {
-                  "day": "MI",
-                  "start": "700",
-                  "end": "800",
-                  "duration": 1,
-                  "room": "B212",
-                  "teacher": "C. VILARDELL"
-                },
-                {
-                  "day": "MI",
-                  "start": "800",
-                  "end": "1100",
-                  "duration": 3,
-                  "room": "G212",
-                  "teacher": "C. VILARDELL"
-                },
-                {
-                  "day": "VI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": "G212",
-                  "teacher": "C. VILARDELL"
-                }
-              ],
-              "teacher": "C. VILARDELL"
             },
             {
-              "code": "3",
+              "code": "6",
               "schedule": [
-                {
-                  "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "O. VELASQUEZ"
-                },
                 {
                   "day": "JU",
                   "start": "1100",
                   "end": "1300",
                   "duration": 2,
                   "room": " ",
-                  "teacher": "O. VELASQUEZ"
+                  "teacher": "V. BELIANSKAYA"
+                },
+                {
+                  "day": "VI",
+                  "start": "700",
+                  "end": "900",
+                  "duration": 2,
+                  "room": " ",
+                  "teacher": "V. BELIANSKAYA"
                 },
                 {
                   "day": "VI",
@@ -2340,23 +2116,34 @@
                   "end": "1300",
                   "duration": 2,
                   "room": " ",
-                  "teacher": "O. VELASQUEZ"
+                  "teacher": "V. BELIANSKAYA"
                 }
 
               ],
-              "teacher": "O. VELAZQUEZ"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "19",
-      "subjects": [
-        {
-          "code": "2002068",
-          "name": "SHC190",
-          "groups": [
+              "teacher": "V. BELIANSKAYA"
+            },
+            {
+              "code": "7",
+              "schedule": [
+                {
+                  "day": "JU",
+                  "start": "1800",
+                  "end": "2100",
+                  "duration": 3,
+                  "room": "C001 ",
+                  "teacher": "O. VELASCO"
+                },
+                {
+                  "day": "VI",
+                  "start": "1800",
+                  "end": "2100",
+                  "duration": 3,
+                  "room": " ",
+                  "teacher": "O. VELASCO"
+                }
+              ],
+              "teacher": "O. VELASCO"
+            },
             {
               "code": "8",
               "schedule": [
@@ -2412,130 +2199,58 @@
               "teacher": "A. BASPINEIRO"
             },
             {
-              "code": "1",
+              "code": "9",
               "schedule": [
                 {
-                  "day": "MA",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "V. BELIANSKAYA"
-                },
-                {
-                  "day": "MA",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "V. BELIANSKAYA"
+                  "day": "MI",
+                  "start": "700",
+                  "end": "800",
+                  "duration": 1,
+                  "room": "B212",
+                  "teacher": "C. VILARDELL"
                 },
                 {
                   "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": "C206",
-                  "teacher": "V. BELIANSKAYA"
-                }
-
-              ],
-              "teacher": "V. BELIANSKAYA"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "20",
-      "subjects": [
-        {
-          "code": "2002069",
-          "name": "SHC190",
-          "groups": [
-            {
-              "code": "4",
-              "schedule": [
-                {
-                  "day": "LU",
-                  "start": "900",
+                  "start": "800",
                   "end": "1100",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "J. ZEBALLOS"
-                },
-                {
-                  "day": "MI",
-                  "start": "900",
-                  "end": "1100",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "J. ZEBALLOS"
-                },
-                {
-                  "day": "MI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "J. ZEBALLOS"
-                }
-              ],
-              "teacher": "J. ZEBALLOS"
-            },
-            {
-              "code": "6",
-              "schedule": [
-                {
-                  "day": "JU",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "V. BELIANSKAYA"
+                  "duration": 3,
+                  "room": "G212",
+                  "teacher": "C. VILARDELL"
                 },
                 {
                   "day": "VI",
+                  "start": "900",
+                  "end": "1100",
+                  "duration": 2,
+                  "room": "G212",
+                  "teacher": "C. VILARDELL"
+                }
+              ],
+              "teacher": "C. VILARDELL"
+            },
+            {
+              "code": "10",
+              "schedule": [
+                {
+                  "day": "MA",
                   "start": "700",
                   "end": "900",
                   "duration": 2,
-                  "room": " ",
-                  "teacher": "V. BELIANSKAYA"
+                  "room": " VANAS ",
+                  "teacher": "G. POQUECHOQUE"
                 },
-                {
-                  "day": "VI",
-                  "start": "1100",
-                  "end": "1300",
-                  "duration": 2,
-                  "room": " ",
-                  "teacher": "V. BELIANSKAYA"
-                }
-
-              ],
-              "teacher": "V. BELIANSKAYA"
-            },
-            {
-              "code": "7",
-              "schedule": [
                 {
                   "day": "JU",
                   "start": "1800",
-                  "end": "2100",
-                  "duration": 3,
-                  "room": "C001 ",
-                  "teacher": "O. VELASCO"
-                },
-                {
-                  "day": "VI",
-                  "start": "1800",
-                  "end": "2100",
-                  "duration": 3,
-                  "room": " ",
-                  "teacher": "O. VELASCO"
+                  "end": "2000",
+                  "duration": 2,
+                  "room": " VANAS",
+                  "teacher": "G. POQUECHOQUE"
                 }
               ],
-              "teacher": "O. VELASCO"
+              "teacher": "G. POQUECHOQUE"
             }
+
           ]
         }
       ]
